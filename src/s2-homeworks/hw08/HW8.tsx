@@ -6,8 +6,8 @@ import SuperButton from '../hw04/common/c2-SuperButton/SuperButton'
 import User from './User'
 
 /*
-* 1 - дописать типы и логику (сортировка по имени, фильтрация по совершеннолетию) homeWorkReducer, проверить тестом
-* 2 - дописать компоненту User
+* 1 - дописать типы и логику (сортировка по имени, фильтрация по совершеннолетию) homeWorkReducer, проверить тестом (done)
+* 2 - дописать компоненту User (done)
 * 3 - сделать стили в соответствии с дизайном
 * */
 
@@ -53,12 +53,13 @@ const HW8 = () => {
         setCurrentSort('18')
     }
 
+
     return (
-        <div id={'hw3'}>
+        <div id={'hw3'} >
             <div className={s2.hwTitle}>Homework #8</div>
             <div className={s2.hw}>
                 <div className={s.container}>
-                    <div className={s.buttonsContainer}>
+                    <div className={s.buttonsContainer} >
                         <SuperButton
                             id={'hw8-button-up'}
                             onClick={sortUp}
